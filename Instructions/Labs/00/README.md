@@ -2,7 +2,7 @@
 
 Time to complete: 56 minutes
 
-The following instructions enables learners to prepare their lab environments for the modules that follow. Please run through these instructions prior to starting Module 1. These instructions are provided on the assumption you will be using a pre-installed virtual machine provided for the course. If you do not have a pre-installed virtual machine provided, you can use the [following instructions](../FullSetupREADME.md) to setup the course.
+The following instructions enables learners to prepare their lab environments for the modules that follow. Please run through these instructions prior to starting Module 1. These instructions are provided on the assumption you will be using a pre-installed virtual machine provided for the course. If you do not have a pre-installed virtual machine provided, you can use the [following instructions](FullSetupREADME.md) to setup the course.
 
 ## Lab details
 
