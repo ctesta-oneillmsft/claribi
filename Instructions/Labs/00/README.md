@@ -216,7 +216,7 @@ Perform all of the steps below from your Virtual Machine:
 
    3. Enter the name of the resource group named `data-engineering-synapse`. This will make sure automation runs against the correct environment you provisioned in Azure.
 
-       > **NOTE** This script will take about 15-20 minutes to complete.
+       > **NOTE** This script will take about 15-20 minutes to complete. Move onto the next task while this script is executing
 
 ### Task 2: Create an Azure Databricks cluster
 
