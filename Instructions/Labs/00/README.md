@@ -146,8 +146,8 @@ The below ARM template deploys several Azure resources for the labs, including A
 
 2. On the **Custom deployment** form fill in the fields described below.
 
-   - **Subscription**: Select your desired subscription for the deployment.
-   - **Resource group**: Select the resource group you previously created.
+   - **Subscription**: Select the **`Azure Pass - Sponsorship`** subscription for the deployment.
+   - **Resource group**: Select the resource group **`data-engineering-synapse`**.
    - **Region**: The region where your Azure Synapse environment will be created.
 
         > **Important**: The `Region` field under 'Parameters' will list the Azure regions where Azure Synapse Analytics is available as of November 2020. This will help you find a region where the service is available without being limited to where the resource group is defined.
@@ -157,7 +157,7 @@ The below ARM template deploys several Azure resources for the labs, including A
 
    ![The form is configured as described.](media/synapse-arm-template.png "Deploy an Azure Synapse Analytics workspace")
 
-3. Select the **Review + create** button, then **Create**. The provisioning of your deployment resources will take approximately 6 minutes.
+3. Select the **Review + create** button, then **Create**. The provisioning of your deployment resources will take approximately 7 minutes.
 
     During workspace creation, the portal displays the Submitting deployment for Azure Databricks tile on the right side. You may need to scroll right on your dashboard to see the tile. There is also a progress bar displayed near the top of the screen. You can watch either area for progress.
 
@@ -166,20 +166,13 @@ The below ARM template deploys several Azure resources for the labs, including A
 ## Exercise 2: Setup Synapse Analytics workspace
 
 Time to complete: 29 minutes
-
-Major steps include:
-
-- Configure Synapse resources
-- Download all data sets and files into the data lake (~5 mins)
-- Execute the Cosmos DB pipeline (~10 mins)
-
 ### Task 1: Execute setup scripts
 
 Time to complete: 20 minutes
 
 Perform all of the steps below from your Virtual Machine:
 
-1. **Important step:** Go back to the Azure portal to make sure the **ARM template deployment has completed**. If it has not, these scripts will fail. *Wait until the deployment successfully completes*.
+1. **Important step:** Make sure the **ARM template deployment has completed**. If it has not, these scripts will fail. *Wait until the deployment successfully completes*.
 
 2. Open Windows PowerShell as an Administrator and execute the following to set the `PSGallery` as a trusted repository:
 
@@ -209,11 +202,11 @@ Perform all of the steps below from your Virtual Machine:
 
 6. Execute `Connect-AzAccount` and sign in to your Microsoft user account when prompted.
 
-    > [!WARNING]: You may receive the message "TenantId 'xxxxxx-xxxx-xxxx-xxxx' contains more than one active subscription. The first one will be selected for further use. Copy the tenant id so that you can paste it into the next command.
+7. You will receive the message "TenantId 'xxxxxx-xxxx-xxxx-xxxx' contains more than one active subscription. The first one will be selected for further use. **Copy the tenant id** so that you can paste it into the next command.
 
-7. Execute `az login --tenant <<tenant id>>` and paste the tenant id from the previous step. You will be directed to the browser to sign into your Azure account. Once you have signd in, move to the next step.
+8. Execute `az login --tenant <<tenant id>>` and paste the tenant id from the previous step. You will be directed to the browser to sign into your Azure account. Once you have signd in, move to the next step.
 
-8. Execute `.\01-environment-setup.ps1`
+9. Execute `.\01-environment-setup.ps1`
 
    1. If you have more than one Azure Subscription, you will be prompted to enter the name of your desired Azure Subscription. Copy and paste the value `Azure Pass - Sponsorship` from the list to select one. For example:
 
