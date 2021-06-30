@@ -37,7 +37,7 @@ In this module, the student will be able to:
 
 ## Exercise 0: Create a new dedicated SQL pool and run setup script
 
-Time to complete: 24 minutes (*you can continue the lab while the script runs*)
+Time to complete: 24 minutes **(*you can continue the lab while the script runs*)**
 
 This lab requires a dedicated SQL pool. As a first step, create a new dedicated SQL pool. Then, execute a PowerShell script to load the dedicated SQL pool with data.
 
@@ -61,7 +61,7 @@ This lab requires a dedicated SQL pool. As a first step, create a new dedicated 
 
 ### Task 2: Execute PowerShell script
 
-1. Connect to your **lab VM**. You can find it by connecting to the [Azure portal](https://portal.azure.com) and entering `virtual machines` into the top search bar. Select **Virtual machines** from the search results.
+1. Connect to your **lab VM**. This will either be the virtual machine provided for the course, alternatively, if you haven't been provided with a VM, you can find it by connecting to the [Azure portal](https://portal.azure.com) and entering `virtual machines` into the top search bar. Select **Virtual machines** from the search results.
 
     ![The Virtual Machines service is selected.](media/virtual-machines.png "Virtual machines")
 
@@ -75,7 +75,7 @@ This lab requires a dedicated SQL pool. As a first step, create a new dedicated 
 
 4. After the virtual machine successfully starts, connect to it and complete the steps that follow.
 
-5. Execute the following to set the execution policy to Unrestricted so you can run the local PowerShell script file:
+5. Open Powershell in administrator mode, and execute the following to set the execution policy to Unrestricted so you can run the local PowerShell script file:
 
     ```powershell
     Set-ExecutionPolicy Unrestricted
