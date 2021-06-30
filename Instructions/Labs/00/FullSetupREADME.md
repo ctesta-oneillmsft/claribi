@@ -1,4 +1,4 @@
-# Module 0 - Lab environment setup
+# Module 0 - Lab environment setup with NO pre-installed virtual machine
 
 Time to complete: 120 minutes
 
