@@ -21,10 +21,6 @@ The following instructions enables learners to prepare their lab environments fo
 
 1. An Azure Account with the ability to create an Azure Synapse Workspace
 
-2. A Power BI Pro or Premium account to host Power BI reports
-
-3. Install [Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494) on your lab computer or VM
-
 ## Exercise 1: Azure setup
 
 Time to complete: 27 minutes
