@@ -1,5 +1,7 @@
 # Module 0 - Lab environment setup
 
+Time to complete: 120 minutes
+
 This module helps learners prepare their lab environments for the modules that follow. Please run through these instructions prior to starting Module 1.
 
 ## Lab details
@@ -21,10 +23,6 @@ This module helps learners prepare their lab environments for the modules that f
 ## Requirements
 
 1. An Azure Account with the ability to create an Azure Synapse Workspace
-
-2. A Power BI Pro or Premium account to host Power BI reports
-
-3. Install [Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494) on your lab computer or VM
 
 ## Exercise 1: Azure setup
 
