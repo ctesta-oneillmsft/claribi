@@ -815,7 +815,7 @@ To do this, you will build a mapping data flow that performs the following tasks
 
     - **Output stream name**: Enter `UserTopProductPurchasesASA`.
     - **Incoming stream**: Select `Filter1`.
-    - **Sink type**: select `Dataset`.
+    - **Sink type**: select `Integration Dataset`.
     - **Dataset**: Select `asal400_wwi_usertopproductpurchases_asa`, which is the UserTopProductPurchases SQL table.
     - **Options**: Check `Allow schema drift` and uncheck `Validate schema`.
 

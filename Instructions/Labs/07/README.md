@@ -94,7 +94,6 @@ You will also create a new `Sale` clustered columnstore table within the `wwi_st
     ```sql
     CREATE SCHEMA [wwi_staging]
     ```
-
 5. Select **Run** from the toolbar menu to execute the SQL command.
 
     ![The run button is highlighted in the query toolbar.](media/synapse-studio-query-toolbar-run.png "Run")
@@ -291,9 +290,9 @@ For both of the load operations above, we inserted data into the heap table. Wha
 
 What were the results? Did the load operation take more or less time writing to `Sale` table vs. the heap (`SaleHeap`) table?
 
-In our case, the results are as follows:
+When running the dedicated SQL pool named SQLPool01 at DW500, the results are as follows:
 
-PolyBase vs. COPY (DW500) *(insert 2019 small data set (339,507,246 rows))*:
+PolyBase vs. COPY *(insert 2019 small data set (339,507,246 rows))*:
 
 - COPY (Heap: **5:08**, clustered columnstore: **6:52**)
 - PolyBase (Heap: **5:59**)
