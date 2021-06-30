@@ -1,4 +1,4 @@
-# Module 9 - Integrate data from notebooks with Azure Data Factory or Azure Synapse Pipelines
+# Module 7 - Integrate data from notebooks with Azure Data Factory or Azure Synapse Pipelines
 
 The student will learn how to create linked services, and orchestrate data movement and transformation in Azure Synapse Pipelines.
 

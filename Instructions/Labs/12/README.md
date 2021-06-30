@@ -1,4 +1,4 @@
-# Module 12 - Support Hybrid Transactional Analytical Processing (HTAP) with Azure Synapse Link
+# Module 9 - Support Hybrid Transactional Analytical Processing (HTAP) with Azure Synapse Link
 
 In this module, students will learn how Azure Synapse Link enables seamless connectivity of an Azure Cosmos DB account to a Synapse workspace. The student will understand how to enable and configure Synapse link, then how to query the Azure Cosmos DB analytical store using Apache Spark and SQL Serverless.
 
