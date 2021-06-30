@@ -74,16 +74,10 @@ In the lab, the students will create a notebook to query user activity and purch
 
 In this lab, students will learn how to secure a Synapse Analytics workspace and its supporting infrastructure. The student will observe the SQL Active Directory Admin, manage IP firewall rules, manage secrets with Azure Key Vault and access those secrets through a Key Vault linked service and pipeline activities. The student will understand how to implement column-level security, row-level security, and dynamic data masking when using dedicated SQL pools.
 
-#### [Build reports using Power BI integration with Azure Synapse Analytics](Instructions/Labs/16/README.md)
-
-In this lab, the student will learn how to integrate Power BI with their Azure Synapse workspace to build reports in Power BI. The student will create a new data source and Power BI report in Azure Synapse Studio. Then the student will learn how to improve query performance with materialized views and result-set caching. Finally, the student will explore the data lake with serverless SQL pools and create visualizations against that data in Power BI.
-
-### Day 4
-
 #### [Support Hybrid Transactional Analytical Processing (HTAP) with Azure Synapse Link](Instructions/Labs/12/README.md)
 
 This lab teaches you how Azure Synapse Link enables seamless connectivity of an Azure Cosmos DB account to a Synapse workspace. You will understand how to enable and configure Synapse link, then how to query the Azure Cosmos DB analytical store using Apache Spark and SQL Serverless.
-
+### Day 4
 #### [Real-time Stream Processing with Stream Analytics](Instructions/Labs/14/README.md)
 
 This lab teaches you how to process streaming data with Azure Stream Analytics. You will ingest vehicle telemetry data into Event Hubs, then process that data in real time, using various windowing functions in Azure Stream Analytics. You will output the data to Azure Synapse Analytics. Finally, you will learn how to scale the Stream Analytics job to increase throughput.
